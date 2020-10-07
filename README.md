@@ -6,16 +6,10 @@ Unused styles are purged during production builds.
 
 ## Getting Started
 
-Install it via npm:
+Install the plugin and TailwindCSS:
 
 ```shell
-npm install preact-cli-tailwind-purgecss
-```
-
-yarn:
-
-```shell
-yarn add preact-cli-tailwind-purgecss --dev
+yarn add preact-cli-tailwind-purgecss tailwindcss --dev
 ```
 
 Include the plugin in your project by creating a `preact.config.js`
@@ -57,7 +51,7 @@ Create a folder for styles, and a CSS file in `src/styles` with the following Ta
 
 Then import that CSS or SASS file into your app's main `index.js` file, e.g. `import "./styles/index.css";`
 
-### Configure PurgeCSS
+## Custom PurgeCSS Configuration
 
 Pass in an object with any required config.
 
