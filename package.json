@@ -1,7 +1,7 @@
 {
   "name": "preact-cli-tailwind-purgecss",
   "description": "Get started with Tailwind and PurgeCSS in your Preact project",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "src/index.js",
   "author": "https://github.com/jpbow",
   "repository": {
