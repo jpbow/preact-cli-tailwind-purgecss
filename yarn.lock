@@ -39,6 +39,14 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fullhuman/postcss-purgecss@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-3.0.0.tgz#e39bf7a7d2a2c664ed151b639785b2efcbca33ff"
+  integrity sha512-cvuOgMwIVlfgWcUMqg5p33NbGUxLwMrKtDKkm3QRfOo4PRVNR6+y/xd9OyXTVZiB1bIpKNJ0ZObYPWD3DRQDtw==
+  dependencies:
+    postcss "7.0.32"
+    purgecss "^3.0.0"
+
 "@fullhuman/postcss-purgecss@^2.1.2":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-2.3.0.tgz#50a954757ec78696615d3e118e3fee2d9291882e"
@@ -46,14 +54,6 @@
   dependencies:
     postcss "7.0.32"
     purgecss "^2.3.0"
-
-"@fullhuman/postcss-purgecss@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@fullhuman/postcss-purgecss/-/postcss-purgecss-3.0.0.tgz#e39bf7a7d2a2c664ed151b639785b2efcbca33ff"
-  integrity sha512-cvuOgMwIVlfgWcUMqg5p33NbGUxLwMrKtDKkm3QRfOo4PRVNR6+y/xd9OyXTVZiB1bIpKNJ0ZObYPWD3DRQDtw==
-  dependencies:
-    postcss "7.0.32"
-    purgecss "^3.0.0"
 
 acorn-jsx@^5.2.0:
   version "5.3.1"

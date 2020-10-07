@@ -18,8 +18,7 @@
     "prettier": "2.1.2"
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^3.0.0",
-    "tailwindcss": "^1.8.11"
+    "@fullhuman/postcss-purgecss": "3.0.0"
   },
   "bugs": {
     "url": "https://github.com/jpbow/preact-cli-tailwind-purgecss/issues"
@@ -31,5 +30,8 @@
     "css",
     "preact",
     "cli"
-  ]
+  ],
+  "peerDependencies": {
+    "tailwindcss": "~1"
+  }
 }
